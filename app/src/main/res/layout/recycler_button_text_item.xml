@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:layout_height="40dp">
+
+    <Button
+        android:layout_alignParentStart="true"
+        android:id="@+id/recycler_button_text_item_button"
+
+        android:layout_width="190dp"
+        android:layout_height="30dp"
+        android:text="deseases"
+        android:textSize="14dp"
+        android:background="@drawable/edittext_background"
+
+        android:elevation="6dp"
+
+        />
+
+    <Button
+
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@+id/recycler_button_text_item_button"
+        android:id="@+id/recycler_button_text_item_button2"
+
+
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_delete"
+        android:elevation="6dp"
+
+        />
+
+</RelativeLayout>

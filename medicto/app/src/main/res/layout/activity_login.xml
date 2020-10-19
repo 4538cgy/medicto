@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/activity_login_relativeLayout"
+
+    tools:context=".LoginActivity">
+
+
+
+    <ImageView
+
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/activity_login_imageview_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/medicto_logo_3"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/activity_login_imageview_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_default"
+        android:orientation="vertical"
+        android:elevation="12dp"
+        >
+
+        <TextView
+            android:id="@+id/activity_login_textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME TO \n YOUR OWN SPACE"
+            android:textSize="24dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorBlack" android:fontFamily="@font/ubunturegular"
+            />
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_illustration"
+            />
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/activity_login_edittext_id"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="email address"
+            android:textColorHint="@color/colorBlack"
+            android:textStyle="bold"
+            android:paddingLeft="18dp"
+            android:textSize="19dp"
+            android:background="@drawable/edittext_background"
+            android:elevation="6dp"
+            />
+
+        <LinearLayout
+
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:elevation="6dp"
+            >
+            <EditText
+                android:id="@+id/activity_login_edittext_password"
+                android:layout_weight="5"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="6dp"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:hint="password"
+                android:textColorHint="@color/colorBlack"
+                android:textStyle="bold"
+                android:paddingLeft="18dp"
+                android:textSize="19dp"
+                android:background="@drawable/edittext_background"
+                android:elevation="6dp"
+                android:inputType="textPassword"
+                />
+            <RelativeLayout
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                >
+
+
+                <Button
+                    android:id="@+id/activity_login_button_login"
+                    android:layout_marginRight="14dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="LOG IN"
+                    android:background="@drawable/button_background_green"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:visibility="visible"
+                    />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_marginLeft="24dp"
+                android:layout_gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/circle_background_green"
+                android:elevation="3dp"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/activity_login_textview"
+
+                android:layout_marginHorizontal="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="I need to make an account" android:fontFamily="@font/ubunturegular"
+                android:elevation="3dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Spinner
+                android:id="@+id/activity_login_spinner_language_selector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

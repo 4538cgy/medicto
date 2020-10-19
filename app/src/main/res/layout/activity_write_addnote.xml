@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/activity_write_addnote_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageButton
+                android:id="@+id/activity_write_addnote_imagebutton"
+                android:layout_margin="24dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_exit"
+                android:scaleType="centerInside"
+                android:background="@android:color/transparent"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADD NOTES"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="28dp"
+                android:gravity="center" android:fontFamily="@font/ubunturegular"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_margin="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/edittext_background"
+            android:elevation="6dp"
+            >
+            <EditText
+                android:layout_marginVertical="26dp"
+                android:layout_marginHorizontal="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="write here"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/edittext_background"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+
+        android:id="@+id/activity_write_addnote_button"
+        android:layout_marginVertical="12dp"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:layout_marginHorizontal="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VALIDATE"
+        android:textSize="22dp"
+        android:background="@drawable/button_background_green"
+
+        />
+
+
+</RelativeLayout>

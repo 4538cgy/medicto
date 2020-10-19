@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/fragment_symptons_result_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="I HAVE THESE SYMPTOMES"
+                android:textColor="@color/colorBlack"
+                android:textSize="24dp" android:fontFamily="@font/ubunturegular"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="12dp"
+                android:layout_marginHorizontal="32dp"
+                android:background="@drawable/square_background_white"
+                android:elevation="6dp"
+                >
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_marginTop="24dp"
+                    android:layout_marginHorizontal="30dp"
+                    android:id="@+id/fragment_symptons_result_recycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

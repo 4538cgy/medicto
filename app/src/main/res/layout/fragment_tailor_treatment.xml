@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/fragment_tailor_treatment_textview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TAILOR YOUR TREATMENT"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:fontFamily="@font/font_ubuntu_regular"
+            />
+
+        <LinearLayout
+            android:layout_marginTop="36dp"
+            android:layout_marginLeft="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|center_vertical"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_deseases"
+                />
+
+            <TextView
+                android:id="@+id/fragment_tailor_treatment_textview_chronic"
+                android:layout_marginLeft="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ubunturegular"
+                android:text="Chronical Disease"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="12dp"
+            android:id="@+id/fragment_tailor_treatment_recyclerview_chronic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginVertical="8dp"
+            >
+            <Spinner
+                android:id="@+id/fragment_tailor_treatment_spinner"
+                android:layout_alignParentStart="true"
+                android:layout_width="190dp"
+                android:layout_height="30dp"
+                android:text="specify"
+
+                android:background="@drawable/edittext_background"
+                android:elevation="6dp"
+                />
+            <ImageView
+
+                android:layout_toRightOf="@+id/fragment_tailor_treatment_spinner"
+                android:id="@+id/fragment_tailor_treatment_imageview"
+                android:layout_marginLeft="12dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/button_background_light_green"
+                android:src="@drawable/ic_add"
+                android:padding="11dp"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|center_vertical"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_allergies"
+                />
+            <TextView
+                android:id="@+id/fragment_tailor_treatment_textview_allergy"
+                android:layout_marginLeft="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Allergies"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp"
+                android:fontFamily="@font/ubunturegular"
+                />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="12dp"
+            android:id="@+id/fragment_tailor_treatment_recyclerview_allergy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginVertical="8dp"
+            >
+            <Spinner
+                android:id="@+id/fragment_tailor_treatment_spinner2"
+                android:layout_alignParentStart="true"
+                android:layout_width="190dp"
+                android:layout_height="30dp"
+                android:text="specify"
+                android:background="@drawable/edittext_background"
+                android:elevation="6dp"
+                />
+            <ImageView
+
+                android:layout_toRightOf="@+id/fragment_tailor_treatment_spinner2"
+                android:id="@+id/fragment_tailor_treatment_imageview2"
+                android:layout_marginLeft="12dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/button_background_light_green"
+                android:src="@drawable/ic_add"
+                android:padding="11dp"
+                />
+
+        </RelativeLayout>
+
+
+        <!--
+
+        <LinearLayout
+            android:layout_marginLeft="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|center_vertical"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_treatment"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="actual treatment"
+                android:textColor="@color/colorBlack"
+                />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/fragment_tailor_treatment_recyclerview_treatment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+-->
+
+        <LinearLayout
+            android:layout_marginLeft="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|center_vertical"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_pregnant"
+                />
+            <TextView
+                android:id="@+id/fragment_tailor_treatment_textview_pregnancy"
+                android:layout_marginLeft="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="Pregnancy "
+                android:textColor="@color/colorBlack"
+                android:fontFamily="@font/ubunturegular"
+                />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="12dp"
+            android:id="@+id/fragment_tailor_treatment_recyclerview_pregnancy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginVertical="8dp"
+            >
+            <Spinner
+                android:id="@+id/fragment_tailor_treatment_spinner3"
+                android:layout_alignParentStart="true"
+                android:layout_width="190dp"
+                android:layout_height="30dp"
+                android:text="specify"
+                android:background="@drawable/edittext_background"
+                android:elevation="6dp"
+                />
+            <ImageView
+
+                android:layout_toRightOf="@+id/fragment_tailor_treatment_spinner3"
+                android:id="@+id/fragment_tailor_treatment_imageview3"
+                android:layout_marginLeft="12dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/button_background_light_green"
+                android:src="@drawable/ic_add"
+                android:padding="11dp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

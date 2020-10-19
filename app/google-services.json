@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1080271995119",
+    "firebase_url": "https://medicto-729ea.firebaseio.com",
+    "project_id": "medicto-729ea",
+    "storage_bucket": "medicto-729ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080271995119:android:a919858cf04e381bcedb1a",
+        "android_client_info": {
+          "package_name": "com.medicto.medicto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080271995119-k8hp341chqs9hs11osqeqp9qk5lkvoh5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medicto.medicto",
+            "certificate_hash": "62651b3f10e3f681a1b231d1572d4228f0693bd1"
+          }
+        },
+        {
+          "client_id": "1080271995119-3a5eh7qdd2iiroljibeojiua663am07g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLONoA1wtdDyozurmYpBL0lxUV3P2Ty-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080271995119-3a5eh7qdd2iiroljibeojiua663am07g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".map.CurrentPositionMap">
+    <net.daum.mf.map.api.MapView
+        android:id="@+id/kakao_maps_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/edittext_background"
+        android:alpha="0.9"
+        >
+        <ImageButton
+            android:layout_margin="9dp"
+            android:id="@+id/marker_make_button"
+            android:layout_below="@+id/activity_current_position_map_pharLocation"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="가맹 약국 지도에 표시"
+            android:src="@drawable/ic_other_pharmacies"
+            android:scaleType="centerInside"
+            android:background="@drawable/circle_background_white"
+            android:layout_alignParentRight="true"
+            android:alpha="0.7"
+            android:elevation="6dp"
+            android:padding="6dp"
+            />
+        <ImageButton
+            android:layout_margin="9dp"
+            android:id="@+id/move_current_my_position_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="현재 위치로 이동"
+            android:src="@drawable/ic_location"
+            android:scaleType="centerInside"
+            android:background="@drawable/circle_background_white"
+            android:layout_alignParentRight="true"
+            android:alpha="0.7"
+            android:elevation="6dp"
+            android:padding="6dp"
+
+            />
+        <ImageButton
+            android:layout_margin="9dp"
+            android:id="@+id/activity_current_position_map_pharLocation"
+            android:layout_below="@id/move_current_my_position_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/map_asdasd"
+            android:scaleType="centerInside"
+            android:background="@drawable/circle_background_white"
+            android:layout_alignParentRight="true"
+            android:alpha="0.7"
+            android:elevation="6dp"
+            android:padding="6dp"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

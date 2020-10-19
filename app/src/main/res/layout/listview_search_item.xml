@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_margin="6dp"
+            android:id="@+id/listview_search_item_textview_pharname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pharName"
+            android:gravity="left"
+            android:textSize="18dp"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/font_ubuntu_regular"
+            />
+
+        <TextView
+            android:layout_margin="6dp"
+            android:id="@+id/listview_search_item_textview_engname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="engName"
+            android:gravity="left"
+
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/font_ubuntu_regular"
+            />
+        <TextView
+            android:layout_margin="6dp"
+            android:id="@+id/listview_search_item_textview_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pharName"
+            android:gravity="left"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/font_ubuntu_regular"
+            />
+        <TextView
+            android:layout_margin="6dp"
+            android:id="@+id/listview_search_item_textview_phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pharName"
+            android:gravity="left"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/font_ubuntu_regular"
+            />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

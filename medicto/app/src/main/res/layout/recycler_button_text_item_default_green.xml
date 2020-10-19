@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:layout_height="40dp">
+
+    <Button
+        android:layout_alignParentStart="true"
+        android:id="@+id/recycler_button_text_item_default_green_button"
+
+        android:layout_width="190dp"
+        android:layout_height="30dp"
+        android:text="specify"
+        android:textSize="12dp"
+
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/colorGreen"
+        android:elevation="6dp"
+
+        />
+
+    <ImageButton
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@+id/recycler_button_text_item_default_green_button"
+        android:id="@+id/recycler_button_text_item_default_green_image_button_plus"
+        android:padding="6dp"
+        android:src="@drawable/ic_add"
+        android:scaleType="centerInside"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="X"
+        android:background="@drawable/button_background_light_green"
+        android:elevation="6dp"
+
+        />
+
+</RelativeLayout>

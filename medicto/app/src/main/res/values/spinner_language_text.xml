@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="language2">
+        <item>한국어</item>
+        <item>ENGLISH</item>
+        <item>汉语</item>
+        <item>French</item>
+    </string-array>
+
+    <!--ChronicDisease 시작 -->
+
+    <string-array name="ChronicDisease_English">
+        <item>None</item>
+        <item>Liver Disease</item>
+        <item>High Blood Pressure</item>
+        <item>Diabetes</item>
+        <item>Kidney Disease</item>
+        <item>Asthma</item>
+    </string-array>
+    <string-array name="ChronicDisease_Korean">
+        <item>없음</item>
+        <item>간 질환</item>
+        <item>고혈압</item>
+        <item>당뇨</item>
+        <item>신장 질환</item>
+        <item>천식</item>
+    </string-array>
+    <string-array name="ChronicDisease_French">
+        <item>Aucun</item>
+        <item>Maladie du foie</item>
+        <item>hypertension</item>
+        <item>Diabetes</item>
+        <item>Kidney Disease</item>
+        <item>Asthma</item>
+    </string-array>
+    <string-array name="ChronicDisease_Chinese">
+        <item>无</item>
+        <item>肝病</item>
+        <item>高血压</item>
+        <item>Diabetes</item>
+        <item>Kidney Disease</item>
+        <item>Asthma</item>
+    </string-array>
+
+    <!--ChronicDisease 끝 -->
+
+
+    <!--Allergy 시작 -->
+    <string-array name="Allergy_English">
+        <item>None</item>
+        <item>Painkiller</item>
+        <item>Anti-Inflammatory</item>
+        <item>Aspirin</item>
+        <item>Penicillin</item>
+        <item>Sulfa Drug</item>
+        <item>Tetracycline</item>
+        <item>Anticonvulsant</item>
+        <item>Lacto Intolerance</item>
+        <item>Collagen</item>
+    </string-array>
+
+    <string-array name="Allergy_Korean">
+        <item>없음</item>
+        <item>진통제</item>
+        <item>소염제</item>
+        <item>아스피린</item>
+        <item>페니실린</item>
+        <item>설파제</item>
+        <item>테트라사이클린</item>
+        <item>항경련제</item>
+        <item>유당불내증</item>
+        <item>콜라겐</item>
+    </string-array>
+
+    <string-array name="Allergy_Chinese">
+        <item>无</item>
+        <item>镇痛剂</item>
+        <item>抗生剂</item>
+        <item>Aspirin</item>
+        <item>Penicillin</item>
+        <item>Sulfa Drug</item>
+        <item>Tetracycline</item>
+        <item>Anticonvulsant</item>
+        <item>Lacto Intolerance</item>
+        <item>Collagen</item>
+    </string-array>
+
+    <string-array name="Allergy_French">
+        <item>Aucun</item>
+        <item>Antalgique</item>
+        <item>Antibiotique</item>
+        <item>Aspirin</item>
+        <item>Penicillin</item>
+        <item>Sulfa Drug</item>
+        <item>Tetracycline</item>
+        <item>Anticonvulsant</item>
+        <item>Lacto Intolerance</item>
+        <item>Collagen</item>
+    </string-array>
+
+
+    <!--Allergy 끝 -->
+
+
+
+    <string-array name="days_korean">
+        <item>일</item>
+        <item>주</item>
+    </string-array>
+
+    <string-array name="days_chinese">
+        <item>日</item>
+        <item>週間</item>
+    </string-array>
+    <string-array name="days_french">
+        <item>Jour</item>
+        <item>Semaine</item>
+    </string-array>
+    <string-array name="days_english">
+        <item>Day</item>
+        <item>Week</item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting.Setting_AccountActivity">
+
+
+    <TextView
+        android:id="@+id/activity_setting_account_info_textview_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOUR ACCOUNT"
+        android:textSize="24dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:fontFamily="@font/font_ubuntu_regular"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        />
+
+    <TextView
+        android:id="@+id/activity_setting_account_info_textview_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="180dp"
+        android:layout_marginHorizontal="90dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/colorGreen"
+        android:text="EMAIL"
+        android:fontFamily="@font/font_ubuntu_regular"
+        android:elevation="6dp"
+        />
+
+    <Button
+        android:id="@+id/activity_setting_account_info_button_password"
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:layout_below="@+id/activity_setting_account_info_textview_email"
+        android:textSize="20dp"
+        android:background="@drawable/edittext_backgound_deep_dark_green"
+        android:layout_marginTop="18dp"
+        android:layout_marginHorizontal="90dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:text="Password Change"
+        android:fontFamily="@font/font_ubuntu_regular"
+        android:elevation="6dp"
+        />
+
+    <TextView
+        android:id="@+id/activity_setting_account_info_textview_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/activity_setting_account_info_button_password"
+        android:textSize="20dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="18dp"
+        android:layout_marginHorizontal="90dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/colorGreen"
+        android:text="NAME"
+        android:fontFamily="@font/font_ubuntu_regular"
+        android:elevation="6dp"
+        />
+
+    <Spinner
+        android:id="@+id/activity_setting_account_info_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/activity_setting_account_info_button_password"
+        android:textSize="20dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="18dp"
+        android:layout_marginHorizontal="90dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/colorGreen"
+        android:text="NAME"
+        android:fontFamily="@font/font_ubuntu_regular"
+        android:elevation="6dp"
+        />
+
+    <Spinner
+        android:id="@+id/activity_setting_account_info_spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/activity_setting_account_info_spinner"
+        android:textSize="20dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="18dp"
+        android:layout_marginHorizontal="90dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/colorGreen"
+        android:text="NAME"
+        android:fontFamily="@font/font_ubuntu_regular"
+        android:elevation="6dp"
+        />
+
+    <Spinner
+        android:id="@+id/activity_setting_account_info_spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/activity_setting_account_info_spinner2"
+        android:textSize="20dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="18dp"
+        android:layout_marginHorizontal="90dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/colorGreen"
+        android:text="NAME"
+        android:fontFamily="@font/font_ubuntu_regular"
+        android:elevation="6dp"
+        />
+
+
+    <TextView
+
+        android:layout_alignLeft="@+id/activity_setting_account_info_spinner3"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/activity_setting_account_info_spinner3"
+        android:id="@+id/activity_setting_account_info_textview_delete_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE ACCOUNT"
+        android:textColor="@color/colorDarkGreen"
+        android:onClick="mOnPopupClick"
+        />
+
+    <TextView
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/activity_setting_account_info_spinner3"
+        android:layout_alignRight="@+id/activity_setting_account_info_spinner3"
+        android:id="@+id/activity_setting_account_info_textview_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOG OUT"
+        android:textColor="@color/colorDarkGreen"
+        />
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/activity_setting_account_info_button_save"
+        android:layout_marginHorizontal="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_backgound_deep_dark_green"
+        android:text="SAVE"
+        android:textColor="@color/colorWhite"
+        android:textSize="19dp"
+        android:elevation="6dp"
+        android:layout_marginBottom="32dp"
+        />
+
+
+</RelativeLayout>

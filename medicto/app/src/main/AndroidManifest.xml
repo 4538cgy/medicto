@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.medicto.medicto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_favicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Setting.ChangePasswordPopUp"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name=".Setting.DeleteAccountPopUp"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Agreement_2" />
+        <activity android:name=".Setting.TranslationActivity" />
+        <activity android:name=".Setting.PatchNoteActivity" />
+        <activity android:name=".Setting.Setting_AccountActivity" />
+        <activity android:name=".Setting.SettingActivity" />
+        <activity android:name=".map.CurrentPositionMap" />
+        <activity android:name=".map.SearchMap" />
+        <activity android:name=".AgreementActivity" />
+        <activity android:name=".DeleteActivity" />
+        <activity android:name=".LobbyActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".WriteNoteActivity" />
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="dd376b6de9e51a2d2d45f31067dcdc1f" />
+    </application>
+
+</manifest>

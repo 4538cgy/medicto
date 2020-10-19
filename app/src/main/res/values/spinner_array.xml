@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="language">
+        <item>한국어</item>
+        <item>ENGLISH</item>
+        <item>汉语</item>
+        <item>French</item>
+    </string-array>
+
+    <string-array name="nationality">
+        <item>KOREA</item>
+        <item>U.S.A</item>
+        <item>FRANCE</item>
+        <item>中国</item>
+        <item>U.K.</item>
+        <item>Canada</item>
+        <item>AUSTRALIA</item>
+        <item>NEW ZEALAND</item>
+        <item>SOUTH AFRICA</item>
+        <item>IRELAND</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    
+    <string-array name="Period">
+        <item>days</item>
+        <item>weeks</item>
+    </string-array>
+
+    <string-array name="allergy">
+        <item>None</item>
+        <item>Painkiller</item>
+        <item>Anti-Inflammatory</item>
+        <item>Aspirin</item>
+        <item>Penicillin</item>
+        <item>Sulfa Drug</item>
+        <item>Tetracycline</item>
+        <item>Anticonvulsant</item>
+        <item>Lacto Intolerance</item>
+        <item>Collagen</item>
+    </string-array>
+
+    <string-array name="Pregnancy">
+        <item>X</item>
+        <item>O</item>
+    </string-array>
+
+    <string-array name="ChronicDisease">
+        <item>None</item>
+        <item>High Blood Pressure</item>
+        <item>Liver Disease</item>
+        <item>Diabetes</item>
+        <item>Kidney Disease</item>
+        <item>Asthma</item>
+    </string-array>
+
+    <string-array name="number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+
+
+</resources>

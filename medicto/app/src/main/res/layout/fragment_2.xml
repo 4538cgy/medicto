@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Tab.Fragment_2">
+
+    <ImageView
+        android:id="@+id/fragment_2_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/ic_illustration"
+        android:scaleType="centerInside"
+        android:layout_above="@+id/fragment_2_textview"
+        />
+
+    <TextView
+        android:layout_marginBottom="40dp"
+        android:layout_above="@+id/fragment_2_button_add"
+        android:id="@+id/fragment_2_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Your Symptoms\n To Pharmacist"
+        android:textSize="24dp"
+        android:gravity="center"
+
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:fontFamily="@font/font_ubuntu_medium"
+        />
+
+    <Button
+        android:id="@+id/fragment_2_button_add"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_add"
+        android:text="START"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:elevation="6dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font_ubuntu_medium"
+        android:scaleType="centerCrop"
+        android:background="@drawable/button_background_dark_green"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        />
+
+
+
+
+</RelativeLayout>

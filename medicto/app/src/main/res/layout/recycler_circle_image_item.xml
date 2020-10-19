@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/recycler_circle_item_linearlayout"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/circle_background_white"
+        android:gravity="center"
+        android:elevation="6dp"
+        >
+
+        <ImageButton
+            android:id="@+id/recycler_circle_item_imagebutton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@null"
+
+            android:scaleType="centerInside"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/recycler_circle_item_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cold"
+        android:textColor="@color/colorBlack"
+        android:textSize="12dp" android:fontFamily="@font/ubunturegular"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
